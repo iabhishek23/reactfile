@@ -1,0 +1,23 @@
+.container{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: linear-gradient(rgb(218, 218, 231),red);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"]{
+    width: 100%;
+}
+
+input[type="submit"]{
+    border: none;
+    border-radius: 10px;
+    margin-left: 200px;
+    height: 50px;
+    width: 70px;
+    background-color: blanchedalmond;
+    font-weight: bolder;
+}
